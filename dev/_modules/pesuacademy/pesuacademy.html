@@ -111,7 +111,6 @@
     <span class="n">Profile</span><span class="p">,</span>
     <span class="n">SeatingInformation</span><span class="p">,</span>
     <span class="n">SemesterResult</span><span class="p">,</span>
-    <span class="n">Timetable</span><span class="p">,</span>
     <span class="n">Topic</span><span class="p">,</span>
     <span class="n">Unit</span><span class="p">,</span>
 <span class="p">)</span>
@@ -311,20 +310,6 @@
         <span class="k">return</span> <span class="k">await</span> <span class="bp">self</span><span class="o">.</span><span class="n">_client</span><span class="o">.</span><span class="n">get_material_links</span><span class="p">(</span><span class="n">topic</span><span class="p">,</span> <span class="n">material_type_id</span><span class="p">)</span></div>
 
 
-<div class="viewcode-block" id="PESUAcademy.get_timetable">
-<a class="viewcode-back" href="../../pesuacademy.html#pesuacademy.pesuacademy.PESUAcademy.get_timetable">[docs]</a>
-    <span class="k">async</span> <span class="k">def</span><span class="w"> </span><span class="nf">get_timetable</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Timetable</span><span class="p">:</span>
-<span class="w">        </span><span class="sd">&quot;&quot;&quot;Fetches the student&#39;s timetable.</span>
-
-<span class="sd">        Args:</span>
-<span class="sd">            None</span>
-
-<span class="sd">        Returns:</span>
-<span class="sd">            Timetable: A Timetable object containing the student&#39;s timetable details.</span>
-<span class="sd">        &quot;&quot;&quot;</span>
-        <span class="k">return</span> <span class="k">await</span> <span class="bp">self</span><span class="o">.</span><span class="n">_client</span><span class="o">.</span><span class="n">get_timetable</span><span class="p">()</span></div>
-
-
 <div class="viewcode-block" id="PESUAcademy.close">
 <a class="viewcode-back" href="../../pesuacademy.html#pesuacademy.pesuacademy.PESUAcademy.close">[docs]</a>
     <span class="k">async</span> <span class="k">def</span><span class="w"> </span><span class="nf">close</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
@@ -345,7 +330,7 @@
 
   <div role="contentinfo">
     <p>&#169; Copyright 2025, Aditeya Baral and Samarth Mohan.
-      <span class="lastupdated">Last updated on Aug 16, 2025.
+      <span class="lastupdated">Last updated on Aug 23, 2025.
       </span></p>
   </div>
 
